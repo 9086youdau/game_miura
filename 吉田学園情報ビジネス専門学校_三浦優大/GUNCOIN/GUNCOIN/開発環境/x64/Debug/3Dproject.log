@@ -1,0 +1,25 @@
+﻿  wall.cpp
+c:\users\student\desktop\提出作品\17_三浦優大\3dゲーム\guncoin\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Tutolial.cpp
+c:\users\student\desktop\提出作品\17_三浦優大\3dゲーム\guncoin\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  title.cpp
+c:\users\student\desktop\提出作品\17_三浦優大\3dゲーム\guncoin\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Timer.cpp
+c:\users\student\desktop\提出作品\17_三浦優大\3dゲーム\guncoin\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  stone.cpp
+c:\users\student\desktop\提出作品\17_三浦優大\3dゲーム\guncoin\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  result.cpp
+c:\users\student\desktop\提出作品\17_三浦優大\3dゲーム\guncoin\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  model.cpp
+c:\users\student\desktop\提出作品\17_三浦優大\3dゲーム\guncoin\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  meshfield.cpp
+c:\users\student\desktop\提出作品\17_三浦優大\3dゲーム\guncoin\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  main.cpp
+c:\users\student\desktop\提出作品\17_三浦優大\3dゲーム\guncoin\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  ligth.cpp
+c:\users\student\desktop\提出作品\17_三浦優大\3dゲーム\guncoin\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Item.cpp
+c:\users\student\desktop\提出作品\17_三浦優大\3dゲーム\guncoin\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  input.cpp
+c:\users\student\desktop\提出作品\17_三浦優大\3dゲーム\guncoin\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  gamepad.cpp
