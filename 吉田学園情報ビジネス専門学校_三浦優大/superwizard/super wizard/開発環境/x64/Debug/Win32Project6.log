@@ -1,0 +1,41 @@
+﻿  Tutolial.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  title.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Timer.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Score.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  result.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Ranking.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Player.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Pause.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  particle.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  main.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  input.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  game.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  fade.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Explosion.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  enemy.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  effect.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  cavegame.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  bullet.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Block.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  bg.cpp
+\\172.16.1.65\game_2020\10_2dゲーム制作応用\01_提出\04_アクションゲームアーカイブ\17_三浦優大\super wizard\開発環境\main.h(6): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  コードを生成中...
