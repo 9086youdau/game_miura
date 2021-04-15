@@ -1,0 +1,33 @@
+﻿  Tutolial.cpp
+c:\users\student\documents\visual studio 2015\projects\win32project3\main.h(5): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  title.cpp
+c:\users\student\documents\visual studio 2015\projects\win32project3\main.h(5): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  sound.cpp
+c:\users\student\documents\visual studio 2015\projects\win32project3\main.h(5): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Score.cpp
+c:\users\student\documents\visual studio 2015\projects\win32project3\main.h(5): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  result.cpp
+c:\users\student\documents\visual studio 2015\projects\win32project3\main.h(5): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Player.cpp
+c:\users\student\documents\visual studio 2015\projects\win32project3\main.h(5): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Pause.cpp
+c:\users\student\documents\visual studio 2015\projects\win32project3\main.h(5): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  particle.cpp
+c:\users\student\documents\visual studio 2015\projects\win32project3\main.h(5): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  main.cpp
+c:\users\student\documents\visual studio 2015\projects\win32project3\main.h(5): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  input.cpp
+c:\users\student\documents\visual studio 2015\projects\win32project3\main.h(5): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Hp.cpp
+c:\users\student\documents\visual studio 2015\projects\win32project3\main.h(5): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  game.cpp
+c:\users\student\documents\visual studio 2015\projects\win32project3\main.h(5): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  fade.cpp
+c:\users\student\documents\visual studio 2015\projects\win32project3\main.h(5): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Explosion.cpp
+c:\users\student\documents\visual studio 2015\projects\win32project3\main.h(5): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  enemy.cpp
+c:\users\student\documents\visual studio 2015\projects\win32project3\main.h(5): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  effect.cpp
+c:\users\student\documents\visual studio 2015\projects\win32project3\main.h(5): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  bullet.cpp
