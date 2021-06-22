@@ -1,8 +1,0 @@
-﻿bg.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
-input.obj : error LNK2001: 外部シンボル "c_dfDIKeyboard" は未解決です。
-input.obj : error LNK2001: 外部シンボル "GUID_SysKeyboard" は未解決です。
-input.obj : error LNK2001: 外部シンボル "IID_IDirectInput8A" は未解決です。
-input.obj : error LNK2001: 外部シンボル "DirectInput8Create" は未解決です。
-main.obj : error LNK2001: 外部シンボル "Direct3DCreate9" は未解決です。
-main.obj : error LNK2001: 外部シンボル "D3DXCreateFontA" は未解決です。
-C:\Users\student\Desktop\改良版\super wizard\開発環境\Win32Project6.exe : fatal error LNK1120: 7 件の未解決の外部参照

@@ -1,8 +1,4 @@
-今までの作品です。
-
-GERGAD→2Dシューティング
-
-superwizard→2Dアクションゲーム
+提出作品です。
 
 GUNCOIN→3Dゲーム
 
