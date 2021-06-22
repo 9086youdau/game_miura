@@ -14,6 +14,7 @@
 #include "fade.h"
 #include "input.h"
 #include "gamepad.h"
+#include "item.h"
 
 //-----------------------------------------------------------------
 // マクロ定義
@@ -34,8 +35,7 @@ D3DXVECTOR3 g_posResultLogo;						// タイトルロゴの中心座標
 D3DXVECTOR3 g_posPressEnterResult;					// プレスエンターの中心座標
 D3DXCOLOR g_Resultcolor;
 RESULT  g_aResult[256];
-float g_nCntResult;
-int g_nCntResult2;
+int g_nCntResult2 = 0;
 
 //-----------------------------------------------------------------
 // タイトルの初期化処理
@@ -47,18 +47,15 @@ HRESULT InitResult(void)
 
 	// 変数の受け渡し
 	pDevice = GetDevice();
-	//int nCntEnemy = GetBlockNumber();
-	//int nCntEEnemy = GetcaveGameNumber();
 
 	// 変数の初期化
 	g_posResultLogo = D3DXVECTOR3(SCREEN_WIDTH / 2, HEIGHT_Y, 0.0f);
 	g_posPressEnterResult = D3DXVECTOR3(SCREEN_WIDTH / 2, (SCREEN_HEIGHT / 4), 0.0f);
 	g_Resultcolor = D3DXCOLOR(1.0f, 1.0f, 1.0f, 1.0f);
-	g_nCntResult = 0;
+	//int nCntResult2 = nCnt();
 
 	//テキスチャの読み込み
 	D3DXCreateTextureFromFile(pDevice, "data/TEXTURE/____________2.png", &g_pTextureResult[1]);
-
 
 	for (int nCntResult = 0; nCntResult < 256; nCntResult++)
 	{

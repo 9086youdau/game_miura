@@ -42,4 +42,5 @@ void DrawItem(void);//ƒJƒƒ‰‚Ìİ’è,Draw‚Ìˆê”Ôã‚Å’è‹`
 Item *GetItem(void);
 bool CollisionVecItem(D3DXVECTOR3 *pPos, D3DXVECTOR3 *pPosOld, D3DXVECTOR3 *pMove, float fWidthMax, float fWidthMin, float fDepthMax, float fDepthMin, float fHeightMax, float fHeightMin);
 void SetItem(D3DXVECTOR3 pos, D3DXVECTOR3 rot);
+int nCnt(void);
 #endif

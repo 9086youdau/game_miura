@@ -16,14 +16,12 @@
 #include "Billboard.h"
 #include "meshfield.h"
 #include "bullet.h"
-#include "stone.h"
+#include "object.h"
 #include "fade.h"
 #include "game.h"
 #include "title.h"
 #include "result.h"
 #include "Tutolial.h"
-#include "Timer.h"
-#include "enemy.h"
 #include "gamepad.h"
 
 //================
@@ -153,8 +151,6 @@ int  WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLin
 //ウィンドウプロシージャ
 LRESULT CALLBACK WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
-	TIMER *pTimer;
-	pTimer = GetTimer();
 
 	int nID;
 	const RECT rect = { 0,0,SCREEN_WIDTH,SCREEN_HEIGHT};
@@ -167,14 +163,6 @@ LRESULT CALLBACK WindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 		SetTimer(hWnd, ID_TIMER, TIMER_INTERVAL, NULL);
 		break;
 	case WM_TIMER:
-		if (pTimer->nTimer > 0)
-		{
-			AddTimer(-1);
-		}
-		else if (pTimer->nTimer <= 0)
-		{
-			AddTimer(0);
-		}
 		//無効領域を強制的に発生させる
 		InvalidateRect(hWnd, &rect, FALSE);
 		break;
@@ -448,7 +436,7 @@ void Draw(void)
 {
 	//バックバッファ&Zバッファのクリア（画面のクリア）
 	g_pD3DDevice->Clear(0, NULL, (D3DCLEAR_TARGET | D3DCLEAR_ZBUFFER),
-		D3DCOLOR_RGBA(0, 0, 0, 0),
+		D3DCOLOR_RGBA(0, 0, 0, 255),
 		1.0f,
 		0);
 
@@ -456,7 +444,7 @@ void Draw(void)
 	if (SUCCEEDED(g_pD3DDevice->BeginScene()))
 	{	
 		DrawFPS();
-		DrawTEXT();
+		//fDrawTEXT();
 
 		switch (g_mode)
 		{
@@ -549,12 +537,21 @@ void DrawTEXT(void)
 	Player *pModel;
 	pModel = GetModel();
 
-	ENEMYPLAYER *pEnemy;
-	pEnemy = GetEnemy();
+	//ENEMYPLAYER *pEnemy;
+	//pEnemy = GetEnemy();
 
 	char aStr[456];
-	int nNum = sprintf(&aStr[0], "モデルの最大値.x:%.2f\n", pEnemy->MaxModel.x);
+	int nNum = sprintf(&aStr[0], "モデルの最大値.x:%.2f\n", pModel->as.vtxMaxSphere.x);
+
+	nNum += sprintf(&aStr[nNum], "注視点.z:%.2f\n", pModel->as.vtxMinSphere.x);
+	nNum += sprintf(&aStr[nNum], "視点.x:%.2f\n", pModel->as.vtxMaxSphere.y);
+	nNum += sprintf(&aStr[nNum], "視点.z:%.2f\n", pModel->as.vtxMinSphere.y);
+	nNum += sprintf(&aStr[nNum], "視点.x:%.2f\n", pModel->as.vtxMaxSphere.z);
+	nNum += sprintf(&aStr[nNum], "視点.z:%.2f\n", pModel->as.vtxMinSphere.z);
+
 	RECT rect = { 0,0,SCREEN_WIDTH,SCREEN_HEIGHT };
+	//テキストの描画
+	g_pFont->DrawText(NULL, &aStr[0], -1, &rect, DT_TOP, D3DCOLOR_RGBA(255, 255, 255, 255));
 }
 
 

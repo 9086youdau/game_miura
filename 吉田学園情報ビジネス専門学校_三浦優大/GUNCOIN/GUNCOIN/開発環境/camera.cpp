@@ -26,7 +26,7 @@ void InitCamera(void)
 	g_camera.moveV = D3DXVECTOR3(0.0f, 0.0f, 0.0f);
 	g_camera.moveR = D3DXVECTOR3(0.0f, 0.0f, 0.0f);
 	g_camera.rot.y = 0.0f;
-	g_camera.fLength = 400.0f;
+	g_camera.fLength = 500.0f;
 }
 //=====================================
 //終了処理
@@ -67,12 +67,12 @@ void UpdateCamera(void)
 	// 目的の注視点
 	g_camera.PosRDest.x = pModel->pos.x - 5.0f * sinf(pModel->rotDest.y);
 	g_camera.PosRDest.z = pModel->pos.z - 5.0f * cosf(pModel->rotDest.y);
-	g_camera.PosRDest.y = pModel->pos.y + 70.0f;
+	g_camera.PosRDest.y = pModel->pos.y + 150.0f;
 
 	// 目的の視点
 	g_camera.PosVDest.x = pModel->pos.x - sinf(g_camera.rot.x) * g_camera.fLength;
 	g_camera.PosVDest.z = pModel->pos.z - cosf(g_camera.rot.z) * g_camera.fLength;
-	g_camera.PosVDest.y = pModel->pos.y + 150.0f;
+	g_camera.PosVDest.y = pModel->pos.y + 250.0f;
 
 	// 注視点の位置更新
 	g_camera.PosR.x += (g_camera.PosRDest.x - g_camera.PosR.x) * 0.1f;

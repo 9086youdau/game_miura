@@ -12,7 +12,6 @@
 #include "bullet.h"
 #include "model.h"
 #include "fade.h"
-#include "Timer.h"
 #include "Coin.h"
 
 //=====================
@@ -28,6 +27,7 @@ DWORD g_nNumMatItem = 0;//マテリアルの数
 Item g_PosItem[MAXITEM];//xファイル
 D3DXMATRIX g_mtxWolrdItem;//ワールドマトリックス
 int nCntScore = 0;
+int g_nCntItem;
 
 //====================
 //モデルの初期化処理
@@ -55,9 +55,6 @@ void InitItem(void)
 		g_PosItem[nCntMat].MinStone = D3DXVECTOR3(100000.0f, 100000.0f, 100000.0f);
 		g_PosItem[nCntMat].bUse = false;
 		nCntScore = 0;
-
-
-		g_pMeshItem->UnlockVertexBuffer();
 	}
 }
 //=======================
@@ -88,7 +85,6 @@ void UpdateItem(void)
 	int nNumVtx;//頂点数
 	DWORD sizeFVF;//頂点フォーマットのサイズ
 	BYTE *pVtxBuff;//頂点バッファへのポインタ
-
 
 	for (int nCntMat = 0; nCntMat < MAXITEM; nCntMat++)
 	{
@@ -144,6 +140,7 @@ void UpdateItem(void)
 	if(nCntScore == 20)
 	{
 		SetFade(FADE_OUT, MODE_RESULT);
+		g_nCntItem++;
 	}
 
 }
@@ -227,7 +224,6 @@ bool CollisionVecItem(D3DXVECTOR3 *pPos, D3DXVECTOR3 *pPosOld, D3DXVECTOR3 *pMov
 
 	g_nCntSt = 0;
 	nCntStone = 0;
-	//nCntScore = 0;
 
 	for (int nCount = 0; nCount < MAXITEM; nCount++)
 	{
@@ -336,5 +332,9 @@ void SetItem(D3DXVECTOR3 pos, D3DXVECTOR3 rot)
 
 	//頂点バッファのアンロック
 	g_pMeshItem->UnlockVertexBuffer();
+}
+int nCnt(void)
+{
+	return g_nCntItem;
 }
 

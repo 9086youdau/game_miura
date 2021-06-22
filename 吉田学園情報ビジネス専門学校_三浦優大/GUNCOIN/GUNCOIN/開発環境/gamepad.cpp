@@ -1,7 +1,7 @@
 //==============================================================================
 //
 // 入力処理（ゲームパッド）〔gamepad.cpp〕
-// AUTHOR : MARE HORIAI
+// AUTHOR : Miurayudai
 //
 //==============================================================================
 #include "input.h"
@@ -416,8 +416,6 @@ bool IsButtonPush(KEYINFO button)
 			return true;
 		}
 	}
-
-
 	return false;
 }
 

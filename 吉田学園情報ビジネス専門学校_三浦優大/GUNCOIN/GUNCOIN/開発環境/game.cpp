@@ -9,13 +9,12 @@
 #include "bullet.h"
 #include "meshfield.h"
 #include "light.h"
-#include "stone.h"
+#include "object.h"
 #include "fade.h"
-#include "enemy.h"
-#include "Timer.h"
 #include "gamepad.h"
 #include "item.h"
 #include "Coin.h"
+
 
 //グローバル変数
 bool g_bPause = false;//ポーズ中かどうか
@@ -38,29 +37,27 @@ HRESULT InitGame(void)
 	InitLight();
 	InitCamera();
 	InitModel();
-	InitTimer();
 	InitCoin();
 	InitMeshfield();
-	InitEnemy();
+	//InitEnemy();
+	//Initsph();
 
-	//上通路のモデル
-	SetEnemy(D3DXVECTOR3(0.0f, 0.0f, 0.0f),0);
-
-	//下通路のモデル
-	SetEnemy(D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
 
 	Player *pModel;
 	pModel = GetModel();
 
-	InitStone();
-	SetStone(D3DXVECTOR3(-390.0f, 0.0f, 350.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 3);
-	SetStone(D3DXVECTOR3(-410.0f, 0.0f, -450.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 3);
-	SetStone(D3DXVECTOR3(410.0f, 0.0f, -450.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 3);
-	SetStone(D3DXVECTOR3(390.0f, 0.0f, 350.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 3);
-	SetStone(D3DXVECTOR3(200.0f, 0.0f, 250.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
-	SetStone(D3DXVECTOR3(-200.0f, 0.0f, 250.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
-	SetStone(D3DXVECTOR3(200.0f, 0.0f, -250.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
-	SetStone(D3DXVECTOR3(-200.0f, 0.0f, -250.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
+	InitObject();
+	SetObject(D3DXVECTOR3(-390.0f, 0.0f, 350.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 1);
+	SetObject(D3DXVECTOR3(-410.0f, 0.0f, -450.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 1);
+	SetObject(D3DXVECTOR3(410.0f, 0.0f, -450.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 1);
+	SetObject(D3DXVECTOR3(390.0f, 0.0f, 350.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 1);
+	SetObject(D3DXVECTOR3(200.0f, 0.0f, 250.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
+	SetObject(D3DXVECTOR3(-200.0f, 0.0f, 250.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
+	SetObject(D3DXVECTOR3(200.0f, 0.0f, -250.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
+	SetObject(D3DXVECTOR3(-200.0f, 0.0f, -250.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
+	SetObject(D3DXVECTOR3(-450.0f, 0.0f, 0.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 1);
+	SetObject(D3DXVECTOR3(450.0f, 0.0f, 0.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 1);
+
 
 	InitBullet();
 	InitWall();
@@ -70,7 +67,7 @@ HRESULT InitGame(void)
 	SetWall(D3DXVECTOR3(-500.0f, 0.0f, 270.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
 	SetWall(D3DXVECTOR3(-500.0f, 0.0f, -270.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
 	SetWall(D3DXVECTOR3(270.0f, 0.0f, 500.0f), D3DXVECTOR3(0.0f, 1.57f, 0.0f), 0);
-	SetWall(D3DXVECTOR3(-270.0f, 0.0f, 500.0f), D3DXVECTOR3(0.0f, 1.57f, 0.0f),0);
+	SetWall(D3DXVECTOR3(-270.0f, 0.0f, 500.0f), D3DXVECTOR3(0.0f, 1.57f, 0.0f), 0);
 	SetWall(D3DXVECTOR3(270.0f, 0.0f, -500.0f), D3DXVECTOR3(0.0f, 1.57f, 0.0f), 0);
 	SetWall(D3DXVECTOR3(-270.0f, 0.0f, -500.0f), D3DXVECTOR3(0.0f, 1.57f, 0.0f), 0);
 	//上通路
@@ -82,7 +79,7 @@ HRESULT InitGame(void)
 	SetWall(D3DXVECTOR3(-110.0f, 0.0f, 1150.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
 	//下通路
 	SetWall(D3DXVECTOR3(110.0f, 0.0f, -610.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
-	SetWall(D3DXVECTOR3(110.0f, 0.0f,-880.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
+	SetWall(D3DXVECTOR3(110.0f, 0.0f, -880.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
 	SetWall(D3DXVECTOR3(-110.0f, 0.0f, -610.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
 	SetWall(D3DXVECTOR3(-110.0f, 0.0f, -880.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
 	SetWall(D3DXVECTOR3(110.0f, 0.0f, -1150.0f), D3DXVECTOR3(0.0f, 0.0f, 0.0f), 0);
@@ -147,11 +144,11 @@ void UninitGame(void)
 	UninitCamera();
 	UninitLight();
 	UninitModel();
-	UninitEnemy();
-	UninitStone();
+	//UninitEnemy();
+	UninitObject();
 	UninitBullet();
-	UninitTimer();
 	UninitCoin();
+	//Uninitsph();
 	UninitWall();
 	UninitMeshfield();
 	UninitItem();
@@ -169,17 +166,16 @@ void UpdateGame(void)
 	}
 	else
 	{
-
 		UpdateLight();
 		UpdateCamera();
 		UpdateModel();
-		UpdateEnemy();
-		UpdateStone();
+		//UpdateEnemy();
+		UpdateObject();
 		UpdateBullet();
 		UpdateWall();
 		UpdateBillboard();
-		UpdateTimer();
 		UpdateCoin();
+		//Updatesph();
 		UpdateMeshfield();
 		UpdateItem();
 	}
@@ -187,18 +183,17 @@ void UpdateGame(void)
 
 void DrawGame(void)
 {
-	
 	SetCamera();
-	DrawEnemy();
+	//DrawEnemy();
 	DrawMeshfield();
 	DrawWall();
-	DrawStone();
+	DrawObject();
 	DrawCoin();
-	DrawTimer();
 	DrawBullet();
 	DrawBillboard();
 	DrawItem();
 	DrawModel();
+	//Drawsph();
 
 	if (g_bPause == true)
 	{
