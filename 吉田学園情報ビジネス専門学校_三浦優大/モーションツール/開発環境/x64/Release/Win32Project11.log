@@ -1,0 +1,40 @@
+﻿  camera.cpp
+  debugproc.cpp
+  fade.cpp
+  game.cpp
+  gamepad.cpp
+  input.cpp
+  light.cpp
+  main.cpp
+  manager.cpp
+  meshfield.cpp
+  model.cpp
+  object3D.cpp
+  passerby.cpp
+  player3D.cpp
+  scene.cpp
+  renderer.cpp
+  scene2D.cpp
+  scene3D.cpp
+  sceneX.cpp
+  shadowS.cpp
+  コンパイル中...
+  sound.cpp
+  texture.cpp
+camera.obj : error LNK2001: 外部シンボル "D3DXMatrixLookAtLH" は未解決です。
+camera.obj : error LNK2001: 外部シンボル "D3DXMatrixPerspectiveFovLH" は未解決です。
+debugproc.obj : error LNK2001: 外部シンボル "D3DXCreateFontA" は未解決です。
+gamepad.obj : error LNK2001: 外部シンボル "IID_IDirectInput8A" は未解決です。
+gamepad.obj : error LNK2001: 外部シンボル "c_dfDIJoystick" は未解決です。
+gamepad.obj : error LNK2001: 外部シンボル "DirectInput8Create" は未解決です。
+input.obj : error LNK2001: 外部シンボル "c_dfDIKeyboard" は未解決です。
+input.obj : error LNK2001: 外部シンボル "GUID_SysKeyboard" は未解決です。
+light.obj : error LNK2001: 外部シンボル "D3DXVec3Normalize" は未解決です。
+meshfield.obj : error LNK2001: 外部シンボル "D3DXMatrixRotationYawPitchRoll" は未解決です。
+meshfield.obj : error LNK2001: 外部シンボル "D3DXMatrixTranslation" は未解決です。
+meshfield.obj : error LNK2001: 外部シンボル "D3DXMatrixMultiply" は未解決です。
+model.obj : error LNK2001: 外部シンボル "D3DXLoadMeshFromXA" は未解決です。
+object3D.obj : error LNK2001: 外部シンボル "D3DXGetFVFVertexSize" は未解決です。
+passerby.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+renderer.obj : error LNK2001: 外部シンボル "Direct3DCreate9" は未解決です。
+C:\Users\student\Desktop\ゲーム作品\モーションツール\開発環境\x64\Release\Win32Project11.exe : fatal error LNK1120: 16 件の未解決の外部参照

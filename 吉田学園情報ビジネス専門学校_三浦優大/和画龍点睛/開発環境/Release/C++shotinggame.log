@@ -1,0 +1,47 @@
+﻿  bg.cpp
+  bomb.cpp
+  bullet.cpp
+  camera.cpp
+  CircleHp.cpp
+  Directing.cpp
+  effect.cpp
+  enemy.cpp
+  Experience.cpp
+  explosion.cpp
+  fade.cpp
+  game.cpp
+  gamepad.cpp
+  Graze.cpp
+  hp.cpp
+  input.cpp
+  laser.cpp
+  life.cpp
+  light.cpp
+  main.cpp
+  コンパイル中...
+  manager.cpp
+  meshfield.cpp
+  meshwall.cpp
+  number.cpp
+  particle.cpp
+  pause.cpp
+  player.cpp
+  playerattack.cpp
+  ranking.cpp
+  Renderer.cpp
+  result.cpp
+  Scene.cpp
+  Scene2D.cpp
+  SceneX.cpp
+  score.cpp
+  sound.cpp
+  title.cpp
+  tutorial.cpp
+  ui.cpp
+  コード生成しています。
+  507 of 510 functions (99.4%) were compiled, the rest were copied from previous compilation.
+    4 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+  C++shotinggame.vcxproj -> C:\Users\student\Desktop\ゲーム作品\和画龍点睛\開発環境\C++shotinggame.exe
+  C++shotinggame.vcxproj -> C:\Users\student\Desktop\ゲーム作品\和画龍点睛\開発環境\C++shotinggame.pdb (Full PDB)
