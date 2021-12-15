@@ -1,0 +1,31 @@
+﻿  sound.cpp
+c:\users\student\desktop\ゲーム作品\2d_敵配置ツール\開発環境\main.h(14): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Scene2D.cpp
+c:\users\student\desktop\ゲーム作品\2d_敵配置ツール\開発環境\main.h(14): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Scene.cpp
+c:\users\student\desktop\ゲーム作品\2d_敵配置ツール\開発環境\main.h(14): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  Renderer.cpp
+c:\users\student\desktop\ゲーム作品\2d_敵配置ツール\開発環境\main.h(14): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  playerattack.cpp
+c:\users\student\desktop\ゲーム作品\2d_敵配置ツール\開発環境\main.h(14): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  player.cpp
+c:\users\student\desktop\ゲーム作品\2d_敵配置ツール\開発環境\main.h(14): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  manager.cpp
+c:\users\student\desktop\ゲーム作品\2d_敵配置ツール\開発環境\main.h(14): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  main.cpp
+c:\users\student\desktop\ゲーム作品\2d_敵配置ツール\開発環境\main.h(14): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  input.cpp
+c:\users\student\desktop\ゲーム作品\2d_敵配置ツール\開発環境\main.h(14): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  gamepad.cpp
+c:\users\student\desktop\ゲーム作品\2d_敵配置ツール\開発環境\main.h(14): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  game.cpp
+c:\users\student\desktop\ゲーム作品\2d_敵配置ツール\開発環境\main.h(14): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  fade.cpp
+c:\users\student\desktop\ゲーム作品\2d_敵配置ツール\開発環境\main.h(14): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  enemy.cpp
+c:\users\student\desktop\ゲーム作品\2d_敵配置ツール\開発環境\main.h(14): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  debugproc.cpp
+c:\users\student\desktop\ゲーム作品\2d_敵配置ツール\開発環境\main.h(14): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  bg.cpp
+c:\users\student\desktop\ゲーム作品\2d_敵配置ツール\開発環境\main.h(14): fatal error C1083: include ファイルを開けません。'd3dx9.h':No such file or directory
+  コードを生成中...

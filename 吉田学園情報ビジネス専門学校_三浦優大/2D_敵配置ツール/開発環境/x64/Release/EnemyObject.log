@@ -1,0 +1,24 @@
+﻿  bg.cpp
+  debugproc.cpp
+  enemy.cpp
+  fade.cpp
+  game.cpp
+  gamepad.cpp
+  input.cpp
+  main.cpp
+  manager.cpp
+  player.cpp
+  playerattack.cpp
+  Renderer.cpp
+  Scene.cpp
+  Scene2D.cpp
+  sound.cpp
+bg.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+debugproc.obj : error LNK2001: 外部シンボル "D3DXCreateFontA" は未解決です。
+gamepad.obj : error LNK2001: 外部シンボル "IID_IDirectInput8A" は未解決です。
+gamepad.obj : error LNK2001: 外部シンボル "c_dfDIJoystick" は未解決です。
+gamepad.obj : error LNK2001: 外部シンボル "DirectInput8Create" は未解決です。
+input.obj : error LNK2001: 外部シンボル "c_dfDIKeyboard" は未解決です。
+input.obj : error LNK2001: 外部シンボル "GUID_SysKeyboard" は未解決です。
+Renderer.obj : error LNK2001: 外部シンボル "Direct3DCreate9" は未解決です。
+C:\Users\student\Desktop\ゲーム作品\2D_敵配置ツール\開発環境\EnemyObject.exe : fatal error LNK1120: 8 件の未解決の外部参照
