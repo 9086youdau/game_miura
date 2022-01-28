@@ -1,0 +1,89 @@
+#==============================================================================
+#
+# 『敵の配置管理』スクリプトファイル [EnemySet.txt]
+# Author : MIURA YUDAI
+#
+#==============================================================================
+
+//=============================================================================
+// 敵の配置設定
+//=============================================================================
+
+//=============================================================================
+// 一つ目の編隊
+//=============================================================================
+ENEMYCOUNTSET
+	StartCount = 200         # 敵が出てくる時間
+	Pos = 200.0 0.0 0.0      # 敵の出現場所
+	Size = 200 200             # 敵のサイズ
+END_ENEMYCOUNTSET
+
+ENEMYCOUNTSET
+	StartCount = 200         # 敵が出てくる時間
+	Pos = 400.0 0.0 0.0      # 敵の出現場所
+	Size = 200 200             # 敵のサイズ
+END_ENEMYCOUNTSET
+
+ENEMYCOUNTSET
+	StartCount = 200         # 敵が出てくる時間
+	Pos = 600.0 0.0 0.0      # 敵の出現場所
+	Size = 200 200             # 敵のサイズ
+END_ENEMYCOUNTSET
+
+ENEMYCOUNTSET
+	StartCount = 200         # 敵が出てくる時間
+	Pos = 800.0 0.0 0.0      # 敵の出現場所
+	Size = 200 200             # 敵のサイズ
+END_ENEMYCOUNTSET
+
+ENEMYCOUNTSET
+	StartCount = 200         # 敵が出てくる時間
+	Pos = -200.0 0.0 0.0      # 敵の出現場所
+	Size = 200 200             # 敵のサイズ
+END_ENEMYCOUNTSET
+
+ENEMYCOUNTSET
+	StartCount = 200         # 敵が出てくる時間
+	Pos = -400.0 0.0 0.0      # 敵の出現場所
+	Size = 200 200             # 敵のサイズ
+END_ENEMYCOUNTSET
+
+//=============================================================================
+// 二つ目の編隊
+//=============================================================================
+ENEMYCOUNTSET
+	StartCount = 800         # 敵が出てくる時間
+	Pos = 200.0 0.0 0.0      # 敵の出現場所
+	Size = 200 200             # 敵のサイズ
+END_ENEMYCOUNTSET
+
+ENEMYCOUNTSET
+	StartCount = 800         # 敵が出てくる時間
+	Pos = 400.0 0.0 0.0      # 敵の出現場所
+	Size = 200 200             # 敵のサイズ
+END_ENEMYCOUNTSET
+
+ENEMYCOUNTSET
+	StartCount = 800         # 敵が出てくる時間
+	Pos = 600.0 0.0 0.0      # 敵の出現場所
+	Size = 200 200             # 敵のサイズ
+END_ENEMYCOUNTSET
+
+ENEMYCOUNTSET
+	StartCount = 800         # 敵が出てくる時間
+	Pos = 800.0 0.0 0.0      # 敵の出現場所
+	Size = 200 200             # 敵のサイズ
+END_ENEMYCOUNTSET
+
+ENEMYCOUNTSET
+	StartCount = 800        # 敵が出てくる時間
+	Pos = -200.0 0.0 0.0      # 敵の出現場所
+	Size = 200 200             # 敵のサイズ
+END_ENEMYCOUNTSET
+
+ENEMYCOUNTSET
+	StartCount = 800         # 敵が出てくる時間
+	Pos = -400.0 0.0 0.0      # 敵の出現場所
+	Size = 200 200             # 敵のサイズ
+END_ENEMYCOUNTSET
+END_SCRIPT                #この行は消したらダメ

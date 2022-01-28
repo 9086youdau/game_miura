@@ -1,0 +1,95 @@
+﻿  ui.cpp
+  texture.cpp
+  sound.cpp
+  shadowS.cpp
+  score.cpp
+  sceneX.cpp
+  scene3D.cpp
+  scene2D.cpp
+  scene.cpp
+  renderer.cpp
+  player3D.cpp
+  passerby.cpp
+  particle.cpp
+  object3D.cpp
+  number.cpp
+  model.cpp
+  meshfield.cpp
+  manager.cpp
+  main.cpp
+  light.cpp
+  コードを生成中...
+  コンパイル中...
+  input.cpp
+  hp.cpp
+  gamepad.cpp
+  game.cpp
+  fade.cpp
+  effect.cpp
+  debugproc.cpp
+  camera.cpp
+  bullet.cpp
+  animation.cpp
+  コードを生成中...
+ui.obj : error LNK2019: 未解決の外部シンボル D3DXCreateTextureFromFileA が関数 "public: __cdecl CUi::CUi(int,int)" (??0CUi@@QEAA@HH@Z) で参照されました。
+number.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+particle.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+passerby.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+texture.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+animation.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+bullet.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+effect.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+hp.obj : error LNK2001: 外部シンボル "D3DXCreateTextureFromFileA" は未解決です。
+camera.obj : error LNK2019: 未解決の外部シンボル D3DXMatrixLookAtLH が関数 "public: void __cdecl CCamera::SetCamera(void)" (?SetCamera@CCamera@@QEAAXXZ) で参照されました。
+renderer.obj : error LNK2001: 外部シンボル "D3DXMatrixLookAtLH" は未解決です。
+camera.obj : error LNK2019: 未解決の外部シンボル D3DXMatrixPerspectiveFovLH が関数 "public: void __cdecl CCamera::SetCamera(void)" (?SetCamera@CCamera@@QEAAXXZ) で参照されました。
+renderer.obj : error LNK2001: 外部シンボル "D3DXMatrixPerspectiveFovLH" は未解決です。
+debugproc.obj : error LNK2019: 未解決の外部シンボル D3DXCreateFontA が関数 "public: void __cdecl CDebugProc::Init(void)" (?Init@CDebugProc@@QEAAXXZ) で参照されました。
+game.obj : error LNK2001: 外部シンボル "D3DXCreateFontA" は未解決です。
+manager.obj : error LNK2001: 外部シンボル "D3DXCreateFontA" は未解決です。
+renderer.obj : error LNK2001: 外部シンボル "D3DXCreateFontA" は未解決です。
+gamepad.obj : error LNK2019: 未解決の外部シンボル DirectInput8Create が関数 "public: virtual long __cdecl CGamepad::Init(struct HINSTANCE__ *,struct HWND__ *)" (?Init@CGamepad@@UEAAJPEAUHINSTANCE__@@PEAUHWND__@@@Z) で参照されました。
+input.obj : error LNK2001: 外部シンボル "DirectInput8Create" は未解決です。
+gamepad.obj : error LNK2001: 外部シンボル "IID_IDirectInput8A" は未解決です。
+input.obj : error LNK2001: 外部シンボル "IID_IDirectInput8A" は未解決です。
+gamepad.obj : error LNK2001: 外部シンボル "c_dfDIJoystick" は未解決です。
+input.obj : error LNK2001: 外部シンボル "GUID_SysKeyboard" は未解決です。
+input.obj : error LNK2001: 外部シンボル "c_dfDIKeyboard" は未解決です。
+light.obj : error LNK2019: 未解決の外部シンボル D3DXVec3Normalize が関数 "public: long __cdecl CLight::Init(void)" (?Init@CLight@@QEAAJXZ) で参照されました。
+scene3D.obj : error LNK2001: 外部シンボル "D3DXMatrixMultiply" は未解決です。
+sceneX.obj : error LNK2001: 外部シンボル "D3DXMatrixMultiply" は未解決です。
+shadowS.obj : error LNK2001: 外部シンボル "D3DXMatrixMultiply" は未解決です。
+meshfield.obj : error LNK2001: 外部シンボル "D3DXMatrixMultiply" は未解決です。
+model.obj : error LNK2001: 外部シンボル "D3DXMatrixMultiply" は未解決です。
+passerby.obj : error LNK2001: 外部シンボル "D3DXMatrixMultiply" は未解決です。
+player3D.obj : error LNK2001: 外部シンボル "D3DXMatrixMultiply" は未解決です。
+scene3D.obj : error LNK2001: 外部シンボル "D3DXMatrixTranslation" は未解決です。
+sceneX.obj : error LNK2001: 外部シンボル "D3DXMatrixTranslation" は未解決です。
+shadowS.obj : error LNK2001: 外部シンボル "D3DXMatrixTranslation" は未解決です。
+meshfield.obj : error LNK2001: 外部シンボル "D3DXMatrixTranslation" は未解決です。
+model.obj : error LNK2001: 外部シンボル "D3DXMatrixTranslation" は未解決です。
+passerby.obj : error LNK2001: 外部シンボル "D3DXMatrixTranslation" は未解決です。
+player3D.obj : error LNK2001: 外部シンボル "D3DXMatrixTranslation" は未解決です。
+scene3D.obj : error LNK2001: 外部シンボル "D3DXMatrixRotationYawPitchRoll" は未解決です。
+sceneX.obj : error LNK2001: 外部シンボル "D3DXMatrixRotationYawPitchRoll" は未解決です。
+shadowS.obj : error LNK2001: 外部シンボル "D3DXMatrixRotationYawPitchRoll" は未解決です。
+meshfield.obj : error LNK2001: 外部シンボル "D3DXMatrixRotationYawPitchRoll" は未解決です。
+model.obj : error LNK2001: 外部シンボル "D3DXMatrixRotationYawPitchRoll" は未解決です。
+passerby.obj : error LNK2001: 外部シンボル "D3DXMatrixRotationYawPitchRoll" は未解決です。
+player3D.obj : error LNK2001: 外部シンボル "D3DXMatrixRotationYawPitchRoll" は未解決です。
+model.obj : error LNK2019: 未解決の外部シンボル D3DXLoadMeshFromXA が関数 "public: long __cdecl CModel::Init(struct D3DXVECTOR3,struct D3DXVECTOR3,char *)" (?Init@CModel@@QEAAJUD3DXVECTOR3@@0PEAD@Z) で参照されました。
+sceneX.obj : error LNK2001: 外部シンボル "D3DXLoadMeshFromXA" は未解決です。
+shadowS.obj : error LNK2001: 外部シンボル "D3DXLoadMeshFromXA" は未解決です。
+object3D.obj : error LNK2019: 未解決の外部シンボル D3DXGetFVFVertexSize が関数 "public: virtual void __cdecl CObject3D::Update(void)" (?Update@CObject3D@@UEAAXXZ) で参照されました。
+passerby.obj : error LNK2001: 外部シンボル "D3DXGetFVFVertexSize" は未解決です。
+player3D.obj : error LNK2001: 外部シンボル "D3DXGetFVFVertexSize" は未解決です。
+shadowS.obj : error LNK2001: 外部シンボル "D3DXGetFVFVertexSize" は未解決です。
+renderer.obj : error LNK2019: 未解決の外部シンボル Direct3DCreate9 が関数 "public: long __cdecl CRenderer::Init(struct HWND__ *,bool)" (?Init@CRenderer@@QEAAJPEAUHWND__@@_N@Z) で参照されました。
+scene3D.obj : error LNK2019: 未解決の外部シンボル D3DXMatrixInverse が関数 "public: virtual void __cdecl CScene3D::Draw(void)" (?Draw@CScene3D@@UEAAXXZ) で参照されました。
+sceneX.obj : error LNK2019: 未解決の外部シンボル D3DXMatrixShadow が関数 "public: virtual void __cdecl CSceneX::Draw(void)" (?Draw@CSceneX@@UEAAXXZ) で参照されました。
+sceneX.obj : error LNK2019: 未解決の外部シンボル D3DXPlaneFromPointNormal が関数 "public: virtual void __cdecl CSceneX::Draw(void)" (?Draw@CSceneX@@UEAAXXZ) で参照されました。
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib : warning LNK4272: ライブラリのコンピューターの種類 'X86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib : warning LNK4272: ライブラリのコンピューターの種類 'X86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\dxguid.lib : warning LNK4272: ライブラリのコンピューターの種類 'X86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\dinput8.lib : warning LNK4272: ライブラリのコンピューターの種類 'X86' がターゲットのコンピューターの種類' x64' と競合しています
+C:\Users\student\Documents\Visual Studio 2015\Projects\C++ 3Dgame\x64\Debug\C++ 3Dgame.exe : fatal error LNK1120: 19 件の未解決の外部参照
